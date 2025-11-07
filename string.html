@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript String Method</h1>
+
+    <p id="search"></p>
+    <p id="replace"></p>
+    <p id="string"></p>
+
+    <script>
+        var str="hello how are doing today";
+        var searchposition =str.search("doing");
+        var text=str.replace("how are,how are you")
+        var x=70;
+        var y=90;
+        document.getElementById("search").innerHTML=searchposition;
+        document.getElementById("replace").innerHTML=text;
+        document.getElementById("string").innerHTML=String(x)+String(y);
+    </script>
+
+</body>
+</html>
